@@ -244,3 +244,23 @@ footer {
     padding: 1rem;
     margin-top: 40px;
 }
+
+/* Media Query สำหรับอุปกรณ์ขนาดเล็ก */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+}
