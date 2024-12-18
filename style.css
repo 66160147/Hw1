@@ -136,3 +136,12 @@ hero h2 {
 .contact-form button:hover {
     background-color: #a89f91;
 }
+
+/* ฟุตเตอร์ */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
