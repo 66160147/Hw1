@@ -38,3 +38,101 @@ nav ul li a:hover {
     color: #867a66;
     text-decoration: underline;
 }
+
+/* ส่วนฮีโร่ */
+.hero {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    padding: 2rem;
+    background-color: #333;
+}
+hero h2 {
+    font-size: medium;
+    color: #6a5d4d;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.highlights {
+    text-align: center;
+    padding: 2rem;
+}
+.highlights h2 {
+    font-size: 2.5em;
+    color: #695e50;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 0 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.card img:hover {
+    transform: scale(1.05);
+}
+
+/* ส่วนติดต่อเรา */
+.contact-form {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-form h2 {
+    font-size: 2.5em;
+    color: #6a5d4d;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-size: 1.1em;
+    color: #4f4a45;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #8c7b60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #a89f91;
+}
