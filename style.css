@@ -173,3 +173,36 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* ส่วนหัว */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: #8c7b60;
+}
+
+/* ส่วนเนื้อหาหลัก */
+main {
+    padding: 20px;
+}
