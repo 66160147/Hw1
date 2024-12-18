@@ -145,3 +145,31 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+/* Media Queries สำหรับหน้าจอขนาดเล็ก */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
